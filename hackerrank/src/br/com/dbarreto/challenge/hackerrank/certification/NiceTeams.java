@@ -1,4 +1,4 @@
-package br.com.dbarreto.challenge.misc.hackerrank.certification;
+package br.com.dbarreto.challenge.hackerrank.certification;
 
 import java.util.Collections;
 import java.util.Comparator;

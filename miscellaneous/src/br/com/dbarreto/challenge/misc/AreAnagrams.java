@@ -12,7 +12,7 @@ public class AreAnagrams {
 			return true;
 		}
 		
-		if ((s1 != null && s2 == null) || (s1 == null && s2 != null)) {
+		if (s1 == null || s2 == null) {
 			return false;
 		}
 		
@@ -55,7 +55,7 @@ public class AreAnagrams {
 			return true;
 		}
 		
-		if ((s1 != null && s2 == null) || (s1 == null && s2 != null)) {
+		if (s1 == null || s2 == null) {
 			return false;
 		}
 		

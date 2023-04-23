@@ -1,4 +1,4 @@
-package br.com.dbarreto.challenge.misc.hackerrank.certification.test;
+package br.com.dbarreto.challenge.hackerrank.certification.test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-import br.com.dbarreto.challenge.misc.hackerrank.certification.NiceTeams;
+import br.com.dbarreto.challenge.hackerrank.certification.NiceTeams;
 
 public class TestNiceTeams {
 	
