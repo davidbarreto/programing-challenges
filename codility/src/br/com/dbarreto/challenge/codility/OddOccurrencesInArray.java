@@ -1,3 +1,4 @@
+package br.com.dbarreto.challenge.codility;
 // you can also use imports, for example:
 // import java.util.*;
 
@@ -7,7 +8,7 @@
 import java.util.HashSet;
 import java.util.Iterator;
 
-class Solution {
+class OddOccurrencesInArray {
     public int solution(int[] A) {
         
         HashSet<Integer> group = new HashSet<>();

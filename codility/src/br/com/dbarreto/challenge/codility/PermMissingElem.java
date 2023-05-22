@@ -1,7 +1,8 @@
+package br.com.dbarreto.challenge.codility;
 import java.util.HashSet;
 import java.util.Iterator;
 
-class Solution {
+class PermMissingElem {
     public int solution(int[] A) {
         // write your code in Java SE 8
         

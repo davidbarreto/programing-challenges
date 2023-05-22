@@ -1,4 +1,6 @@
-class Solution {
+package br.com.dbarreto.challenge.codility;
+
+class FrogJmp {
     public int solution(int X, int Y, int D) {
         
         int diff = Y - X;

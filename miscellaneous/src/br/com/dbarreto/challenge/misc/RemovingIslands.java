@@ -23,7 +23,8 @@ public class RemovingIslands {
 			for (int j = 0; j < matrix[0].length; j++) {
 				if (matrix[i][j] == 1 && !visited.contains(i + ";" + j)) {
 					matrix[i][j] = 0;
-				}			}
+				}			
+			}
 		}
 
 		

@@ -1,6 +1,7 @@
+package br.com.dbarreto.challenge.codility;
 import java.util.HashSet;
 
-class Solution {
+class FrogRiverOne {
     public int solution(int X, int[] A) {
         // write your code in Java SE 8
         

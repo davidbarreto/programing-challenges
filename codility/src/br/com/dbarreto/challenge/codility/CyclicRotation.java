@@ -1,4 +1,6 @@
-class Solution {
+package br.com.dbarreto.challenge.codility;
+
+class CyclicRotation {
     public int[] solution(int[] A, int K) {
         
         int len  = A.length;

@@ -51,22 +51,7 @@ public class ReplaceCharacter {
 		return options;
 	}
 	
-	private void search(Option o, List<Option> options, List<String> solution, Set<Character> charSet) {
-		
-//		if (foundSolution(charSet)) {
-//			solution.addAll(getCurrentSolution(options));
-//			return;
-//		}
-//		
-//		
-//
-//		for (Option o : options) {
-//			
-//		}
-//		search(options, solution, charSet);
-//		
-		
-	}
+	
 	
 	private List<String> getCurrentSolution(List<Option> options) {
 		

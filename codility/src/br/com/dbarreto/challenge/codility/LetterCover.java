@@ -1,10 +1,8 @@
-// you can also use imports, for example:
- import java.util.*;
+package br.com.dbarreto.challenge.codility;
 
-// you can write to stdout for debugging purposes, e.g.
-// System.out.println("this is a debug message");
+import java.util.*;
 
-class Solution {
+class LetterCover {
     public int solution(String P, String Q) {
         
         int len = P.length();

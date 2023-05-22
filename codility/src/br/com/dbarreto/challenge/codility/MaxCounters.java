@@ -1,3 +1,4 @@
+package br.com.dbarreto.challenge.codility;
 // you can also use imports, for example:
 // import java.util.*;
 
@@ -8,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.ArrayList;
 
-class Solution {
+class MaxCounters {
     public int[] solution(int N, int[] A) {
         // write your code in Java SE 8
         
