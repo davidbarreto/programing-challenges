@@ -27,8 +27,6 @@ import java.util.LinkedList;
  * {"k1": 1, "k2": {"k3": ["a", "b", "c"]}, "lookup_key": {"a": 1, "b": [2]}
  * 
  * Expected output: {"a": 1, "b": [2]}
- * 
- * @author david
  */
 public class StreamingJsonParser {
 	

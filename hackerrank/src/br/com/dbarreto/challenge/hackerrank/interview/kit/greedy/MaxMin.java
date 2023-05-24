@@ -1,4 +1,4 @@
-package br.com.dbarreto.challenge.hackerrank.interviewkit.greedy;
+package br.com.dbarreto.challenge.hackerrank.interview.kit.greedy;
 
 import java.util.Collections;
 import java.util.List;

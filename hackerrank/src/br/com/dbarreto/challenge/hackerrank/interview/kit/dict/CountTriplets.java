@@ -1,4 +1,4 @@
-package br.com.dbarreto.challenge.hackerrank.interviewkit.dict;
+package br.com.dbarreto.challenge.hackerrank.interview.kit.dict;
 
 import java.util.HashMap;
 import java.util.List;
