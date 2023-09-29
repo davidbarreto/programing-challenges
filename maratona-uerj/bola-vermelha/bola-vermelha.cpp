@@ -7,11 +7,9 @@ using namespace std;
 #define MAX_N 1000
 
 bool livingRoom[MAX_N][MAX_N];
-bool visited[MAX_N][MAX_N];
 
 bool isValid(int, int, int);
 void enqueueCoord(queue<tuple<int, int, int>>&, int, int, int, int);
-void reset(int);
 int calculateDistance(int, int, int, int, int);
 void readMatrix(int);
 
@@ -25,7 +23,6 @@ int main() {
         int n;
         cin >> n;
 
-        reset(n);
         readMatrix(n);
 
         int startX, startY, endX, endY;
@@ -39,10 +36,13 @@ int main() {
 
 int calculateDistance(int startX, int startY, int endX, int endY, int n) {
 
-    queue<tuple<int, int, int>> pathQueue;
-    pathQueue.push(make_tuple(startX, startY, 0));
-
     int result = -1;
+    queue<tuple<int, int, int>> pathQueue;
+
+    if (isValid(startX, startY, n) && isValid(endX, endY, n)) {
+        pathQueue.push(make_tuple(startX, startY, 0));
+    }
+    
     while (!pathQueue.empty()) {
         tuple<int, int, int> coord = pathQueue.front();
         
@@ -71,20 +71,12 @@ void enqueueCoord(queue<tuple<int, int, int>>& pathQueue, int x, int y, int dist
 
     if (isValid(x, y, n)) {
         pathQueue.push(make_tuple(x, y, dist));
-        visited[x][y] = true;
+        livingRoom[x][y] = 1;
     }
 }
 
 bool isValid(int x, int y, int n) {
-    return x >= 0 && x < n && y >= 0 && y < n && !visited[x][y] && !livingRoom[x][y];
-}
-
-void reset(int n) {
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            visited[i][j] = false;
-        }
-    }
+    return x >= 0 && x < n && y >= 0 && y < n && !livingRoom[x][y];
 }
 
 void readMatrix(int n) {
