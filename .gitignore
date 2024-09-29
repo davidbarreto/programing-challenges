@@ -46,3 +46,6 @@ local.properties
 # IntelliJ
 .idea/
 output/
+
+# VS Code
+.vscode/
