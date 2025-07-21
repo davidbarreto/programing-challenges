@@ -41,6 +41,8 @@ int calculateDistance(int startX, int startY, int endX, int endY, int n) {
 
     if (isValid(startX, startY, n) && isValid(endX, endY, n)) {
         pathQueue.push(make_tuple(startX, startY, 0));
+    } else {
+        cout << "Error in " << startX << "," << startY << "," << endX << "," << endY << "," << endl;
     }
     
     while (!pathQueue.empty()) {

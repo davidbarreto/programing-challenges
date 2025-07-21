@@ -85,4 +85,4 @@ def isValid(n, a, b):
 def neighbors(a, b):
     return [(a+1, b), (a, b+1), (a-1, b), (a, b-1)]
 
-main(100, 2, 500, 0.5)
+main(3, 300, 500, 0.6)
