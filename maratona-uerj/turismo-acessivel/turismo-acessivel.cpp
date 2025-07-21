@@ -27,7 +27,8 @@ int main() {
 
         for (int i = 0; i < d; i++) {
             cin >> attractions[i];
-            cout << binarySearch(n, attractions[i]) << endl;
+            cout << binarySearch(n, attractions[i]);
+            if (i<d-1) cout << " "; else cout << endl;
         }
     }
 
