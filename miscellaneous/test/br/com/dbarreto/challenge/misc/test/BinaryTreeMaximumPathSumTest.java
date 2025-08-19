@@ -7,7 +7,7 @@ import org.junit.Test;
 import br.com.dbarreto.challenge.misc.BinaryTreeMaximumPathSum;
 import br.com.dbarreto.challenge.misc.util.Node;
 
-public class TestBinaryTreeMaximumPathSum {
+public class BinaryTreeMaximumPathSumTest {
 
 	private BinaryTreeMaximumPathSum problem = new BinaryTreeMaximumPathSum();
 	

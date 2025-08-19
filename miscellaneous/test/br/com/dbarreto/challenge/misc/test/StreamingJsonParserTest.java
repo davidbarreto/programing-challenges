@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import br.com.dbarreto.challenge.misc.StreamingJsonParser;
 
-public class TestStreamingJsonParser {
+public class StreamingJsonParserTest {
 
 	private String input = "{\"k1\": 1, \"k2\": {\"k3\": [\"a\", \"b\", \"c\"]}, \"lookup_key\": {\"a\": 1, \"b\": [2]}";
 	private StreamingJsonParser.SocketHandler handler = new StreamingJsonParser.SocketHandler(input);

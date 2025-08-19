@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.Fibo;
 
-public class TestFibo {
+public class FiboTest {
 
 	private Fibo problem = new Fibo();
 	

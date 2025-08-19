@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.FindSumOfTwoNumbers;
 
-public class TestFindSumOfTwoNumbers {
+public class FindSumOfTwoNumbersTest {
 	
 	@Test
 	public void testCase001() {

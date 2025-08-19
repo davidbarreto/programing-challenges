@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.StaircaseProblem;
 
-public class TestStaircaseProblem {
+public class StaircaseProblemTest {
 
 	private StaircaseProblem problem = new StaircaseProblem();
 	

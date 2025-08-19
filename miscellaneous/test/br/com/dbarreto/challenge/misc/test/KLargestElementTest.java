@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.KLargestElement;
 
-public class TestKLargestElement {
+public class KLargestElementTest {
 
 	@Test
 	public void testHeap() {

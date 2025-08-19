@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.BestSum;
 
-public class TestBestSum {
+public class BestSumTest {
 
 	private BestSum problem = new BestSum();
 	

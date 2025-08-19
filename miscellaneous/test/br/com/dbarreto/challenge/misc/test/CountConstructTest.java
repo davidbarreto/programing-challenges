@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.CountConstruct;
 
-public class TestCountConstruct {
+public class CountConstructTest {
 
 	private CountConstruct problem = new CountConstruct();
 	

@@ -11,7 +11,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.HowSum;
 
-public class TestHowSum {
+public class HowSumTest {
 
 	private HowSum problem = new HowSum();
 	

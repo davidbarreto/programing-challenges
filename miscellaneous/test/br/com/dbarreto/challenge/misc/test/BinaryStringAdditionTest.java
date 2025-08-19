@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.BinaryStringAddition;
 
-public class TestBinaryStringAddition {
+public class BinaryStringAdditionTest {
 
 	private BinaryStringAddition problem = new BinaryStringAddition();
 	

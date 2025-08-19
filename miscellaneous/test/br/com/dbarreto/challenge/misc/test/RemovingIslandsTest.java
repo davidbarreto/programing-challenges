@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.RemovingIslands;
 
-public class TestRemovingIslands {
+public class RemovingIslandsTest {
 	
 	private RemovingIslands problem = new RemovingIslands();
 

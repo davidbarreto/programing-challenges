@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.CanSum;
 
-public class TestCanSum {
+public class CanSumTest {
 
 	private CanSum problem = new CanSum();
 	

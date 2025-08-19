@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.ShiftLinkedList;
 
-public class TestShiftLinkedList {
+public class ShiftLinkedListTest {
 	
 	@Test
 	public void case001() {

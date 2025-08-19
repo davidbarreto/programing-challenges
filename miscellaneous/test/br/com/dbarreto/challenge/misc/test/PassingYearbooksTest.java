@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.PassingYearbooks;
 
-public class TestPassingYearbooks {
+public class PassingYearbooksTest {
 
 	private PassingYearbooks problem = new PassingYearbooks();
 	

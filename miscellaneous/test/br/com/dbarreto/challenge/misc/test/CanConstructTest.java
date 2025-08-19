@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.CanConstruct;
 
-public class TestCanConstruct {
+public class CanConstructTest {
 
 	private CanConstruct problem = new CanConstruct();
 	

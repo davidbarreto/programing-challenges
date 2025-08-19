@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.AvailableSchedule;
 
-public class TestAvailableSchedule {
+public class AvailableScheduleTest {
 
 	private AvailableSchedule problem = new AvailableSchedule();
 	

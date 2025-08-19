@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.CharactersToMove;
 
-public class TestCharacterToMove {
+public class CharacterToMoveTest {
 
 	private CharactersToMove problem = new CharactersToMove();
 	

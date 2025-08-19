@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.GridTraveler;
 
-public class TestGridTraveler {
+public class GridTravelerTest {
 
 	private GridTraveler problem = new GridTraveler();
 	

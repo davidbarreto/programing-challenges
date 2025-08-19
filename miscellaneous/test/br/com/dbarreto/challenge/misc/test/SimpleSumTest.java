@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.SimpleSum;
 
-public class TestSimpleSum {
+public class SimpleSumTest {
 
 	@Test
 	public void testCase001() {

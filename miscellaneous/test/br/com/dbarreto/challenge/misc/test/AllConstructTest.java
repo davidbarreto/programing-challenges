@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.AllConstruct;
 
-public class TestAllConstruct {
+public class AllConstructTest {
 
 	private AllConstruct problem = new AllConstruct();
 	

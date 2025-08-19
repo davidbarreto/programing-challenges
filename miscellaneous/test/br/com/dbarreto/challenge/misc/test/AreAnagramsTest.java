@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.AreAnagrams;
 
-public class TestAreAnagrams {
+public class AreAnagramsTest {
 	
 	private AreAnagrams problem = new AreAnagrams();
 

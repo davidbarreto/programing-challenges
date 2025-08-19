@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.RiverSizes;
 
-public class TestRiverSize {
+public class RiverSizeTest {
 	
 	@Test
 	public void case001() {

@@ -10,7 +10,7 @@ import org.junit.Test;
 
 import br.com.dbarreto.challenge.misc.BestApartment;
 
-public class TestBestApartment {
+public class BestApartmentTest {
 
 	private BestApartment problem = new BestApartment();
 	
