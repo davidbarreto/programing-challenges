@@ -6,6 +6,30 @@ import br.com.dbarreto.challenge.misc.util.Pair;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Implement a LRU (least recently used) cache
+ * This cache has a specific capacity, and whenever
+ * this capacity is reached, the cache should remove the
+ * key that is the least recently used.
+ *
+ * Public API:
+ * get(key)
+ * put(key, value)
+ *
+ * Requirements:
+ * 1. put method should add a mapping to the cache. If cache is full
+ * (already reached its capacity) it should remove the least recently used key
+ * before adding the new mapping.
+ * 2. put method can update the value of a key, and update the usage of this element
+ * i.e. this element was used pretty recently and should not be removed now, even it was created
+ * originally long time ago.
+ * 3. When updated a existing value through put method, it should not increase the size of cache (because in fact,
+ * this key is already there)
+ * 4. get method returns the value associated to a key. If the key is not present, returns null
+ * 5. get method also update the usage of this key
+ * 6. get and put must be O(1)
+ */
+
 public class LruCache<K, V> {
 
     private final int capacity;
