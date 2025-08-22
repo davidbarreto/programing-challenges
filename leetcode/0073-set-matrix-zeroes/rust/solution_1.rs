@@ -1,0 +1,37 @@
+impl Solution {
+    pub fn set_zeroes(matrix: &mut Vec<Vec<i32>>) {
+        
+        let m = matrix.len();
+        let n = matrix[0].len();
+
+        let mut zeroCoords: Vec<(usize, usize)> = Vec::new();
+
+        for i in 0..matrix.len() {
+            for j in 0..matrix[0].len() {
+                if matrix[i][j] == 0 {
+                    zeroCoords.push((i, j));
+                }
+            }
+        }
+
+        for (i, j) in zeroCoords {
+            Self::zero_row(matrix, i, n);
+            Self::zero_col(matrix, j, m);
+        }
+    }
+
+    fn zero_row(matrix: &mut Vec<Vec<i32>>, row: usize, total_cols: usize) {
+
+        for j in 0..total_cols {
+            matrix[row][j] = 0;
+        }
+
+    }
+
+    fn zero_col(matrix: &mut Vec<Vec<i32>>, col: usize, total_rows: usize) {
+        
+        for i in 0..total_rows {
+            matrix[i][col] = 0;
+        }
+    }
+}
