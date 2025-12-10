@@ -3,6 +3,8 @@ package br.com.dbarreto.challenge.hackerrank.interview.real;
 import java.util.List;
 
 /**
+ * River Records
+ *
  * Given an array of integers, without reordering, determine the maximum difference
  * between any element and any prior smaller element. If there is never a lower prior
  * element, return -1
