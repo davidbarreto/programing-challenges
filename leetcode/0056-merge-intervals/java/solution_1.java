@@ -1,3 +1,7 @@
+/**
+ * Runtime: 11 ms
+ * Memory; 46.3 MB
+ */
 class Solution {
     public int[][] merge(int[][] intervals) {
         
